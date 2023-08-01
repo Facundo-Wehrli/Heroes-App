@@ -3,15 +3,22 @@ import { CommonModule } from '@angular/common';
 
 import { HeroesRoutingModule } from './heroes-routing.module';
 import { NewPageComponent } from './pages/new-page/new-page.component';
+import { HeroePageComponent } from './pages/heroe-page/heroe-page.component';
+import { LayoutPageComponent } from './pages/layout-page/layout-page.component';
+import { SearchPageComponent } from './pages/search-page/search-page.component';
+
 
 
 @NgModule({
   declarations: [
-    NewPageComponent
+    NewPageComponent,
+    HeroePageComponent,
+    LayoutPageComponent,
+    SearchPageComponent,
   ],
   imports: [
     CommonModule,
-    HeroesRoutingModule
+    HeroesRoutingModule,
   ]
 })
 export class HeroesModule { }
