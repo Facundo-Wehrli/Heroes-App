@@ -8,6 +8,7 @@ import { LayoutPageComponent } from './pages/layout-page/layout-page.component';
 import { SearchPageComponent } from './pages/search-page/search-page.component';
 import { MaterialModule } from '../material/material.module';
 import { ListPageComponent } from './pages/list-page/list-page.component';
+import { CardComponent } from './components/card/card.component';
 
 
 
@@ -18,7 +19,8 @@ import { ListPageComponent } from './pages/list-page/list-page.component';
     HeroePageComponent,
     LayoutPageComponent,
     SearchPageComponent,
-    ListPageComponent
+    ListPageComponent,
+    CardComponent
   ],
   imports: [
     CommonModule,
