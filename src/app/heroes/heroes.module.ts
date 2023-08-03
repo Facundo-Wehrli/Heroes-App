@@ -7,6 +7,8 @@ import { HeroePageComponent } from './pages/heroe-page/heroe-page.component';
 import { LayoutPageComponent } from './pages/layout-page/layout-page.component';
 import { SearchPageComponent } from './pages/search-page/search-page.component';
 import { MaterialModule } from '../material/material.module';
+import { ListPageComponent } from './pages/list-page/list-page.component';
+
 
 
 
@@ -16,11 +18,13 @@ import { MaterialModule } from '../material/material.module';
     HeroePageComponent,
     LayoutPageComponent,
     SearchPageComponent,
+    ListPageComponent
   ],
   imports: [
     CommonModule,
     HeroesRoutingModule,
-    MaterialModule
+    MaterialModule,
+
   ]
 })
 export class HeroesModule { }
